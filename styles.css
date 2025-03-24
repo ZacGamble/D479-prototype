@@ -1,0 +1,46 @@
+body {
+  background-color: #f8f9fa; /* Light gray background */
+  font-family: Arial, sans-serif;
+}
+a {
+  color: #6699cc !important;
+  text-decoration: none !important;
+  text-shadow: 1px #6699cc !important;
+}
+
+a:hover {
+  transform: scale(1.02);
+  background-color: #d3d3d3 !important;
+  color: #003b6d;
+}
+
+.color-override {
+  color: white !important;
+}
+header,
+footer {
+  background-color: #003b6d; /* Midnight Blue */
+  color: white !important;
+}
+.navbar-nav .nav-link.active {
+  /* color: #6699cc;  Blue Sky */
+  color: white;
+  font-weight: bold;
+}
+.card {
+  background-color: #676767; /* Dim Gray */
+}
+.background {
+  background-color: #d9d9d9;
+}
+.breadcrumb-item a {
+  color: #003b6d;
+  text-decoration: none;
+}
+.breadcrumb-item.active {
+  color: #676767;
+}
+.tagline {
+  font-style: italic;
+  color: #d3d3d3; /* Silver */
+}
